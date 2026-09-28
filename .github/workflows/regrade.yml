@@ -1,0 +1,21 @@
+name: Regrade
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write # for the result comment on pull requests
+
+jobs:
+  regrade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dhrumilbhut/regrade@next
+        with:
+          suite: suite.mjs
+          repeat: 3
+          comment: true

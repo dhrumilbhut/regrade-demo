@@ -1,0 +1,347 @@
+{
+  "kind": "regrade.run",
+  "schemaVersion": 1,
+  "regradeVersion": "0.6.0",
+  "exportedAt": "2026-09-28T11:27:08.960Z",
+  "compact": true,
+  "run": {
+    "runId": "72a57be1-4af3-430d-9a23-0f877ebd5a12",
+    "suiteName": "support-bot",
+    "suiteHash": "2eccf88dff09e670",
+    "startedAt": "2026-09-28T11:27:08.944Z",
+    "finishedAt": "2026-09-28T11:27:08.960Z",
+    "status": "completed",
+    "regradeVersion": "0.6.0",
+    "gitSha": null,
+    "gitDirty": null,
+    "label": null,
+    "pipeline": {
+      "adapter": "support-bot",
+      "config": {},
+      "judge": null,
+      "settings": {
+        "concurrency": 4,
+        "repeat": 3,
+        "timeoutMs": 30000
+      },
+      "filters": {
+        "tags": null,
+        "caseIds": null
+      }
+    },
+    "summary": {
+      "cases": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "flaky": 0,
+        "errored": 0
+      },
+      "attempts": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errored": 0
+      },
+      "latency": {
+        "avgMs": 0.06835555555555572,
+        "p95Ms": 0.3224999999999909
+      },
+      "costUsd": {
+        "pipeline": 0,
+        "judge": 0,
+        "unknownAttempts": 18
+      }
+    }
+  },
+  "attempts": [
+    {
+      "caseId": "opening-hours",
+      "attempt": 1,
+      "caseHash": "52a4c224e484bdaf",
+      "latencyMs": 0.3224999999999909,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.946Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "opening-hours",
+      "attempt": 2,
+      "caseHash": "52a4c224e484bdaf",
+      "latencyMs": 0.1547999999999945,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.946Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "opening-hours",
+      "attempt": 3,
+      "caseHash": "52a4c224e484bdaf",
+      "latencyMs": 0.11309999999997444,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.946Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "refund-window",
+      "attempt": 1,
+      "caseHash": "a513c487744bac02",
+      "latencyMs": 0.0776000000000181,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.946Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "refund-window",
+      "attempt": 2,
+      "caseHash": "a513c487744bac02",
+      "latencyMs": 0.08429999999998472,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "refund-window",
+      "attempt": 3,
+      "caseHash": "a513c487744bac02",
+      "latencyMs": 0.04390000000000782,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "shipping-time",
+      "attempt": 1,
+      "caseHash": "3cd6ebaa6c3ef9aa",
+      "latencyMs": 0.027100000000018554,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "shipping-time",
+      "attempt": 2,
+      "caseHash": "3cd6ebaa6c3ef9aa",
+      "latencyMs": 0.015099999999989677,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "shipping-time",
+      "attempt": 3,
+      "caseHash": "3cd6ebaa6c3ef9aa",
+      "latencyMs": 0.056000000000011596,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "support-email",
+      "attempt": 1,
+      "caseHash": "de1243c998d7cf60",
+      "latencyMs": 0.04429999999999268,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "support-email",
+      "attempt": 2,
+      "caseHash": "de1243c998d7cf60",
+      "latencyMs": 0.03509999999999991,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "support-email",
+      "attempt": 3,
+      "caseHash": "de1243c998d7cf60",
+      "latencyMs": 0.027799999999984948,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.957Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "gift-cards",
+      "attempt": 1,
+      "caseHash": "490f771e760ebafb",
+      "latencyMs": 0.07810000000000628,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.958Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "gift-cards",
+      "attempt": 2,
+      "caseHash": "490f771e760ebafb",
+      "latencyMs": 0.05750000000000455,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.958Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "gift-cards",
+      "attempt": 3,
+      "caseHash": "490f771e760ebafb",
+      "latencyMs": 0.04740000000001032,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.958Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "price-match",
+      "attempt": 1,
+      "caseHash": "42e116e021a49bd7",
+      "latencyMs": 0.009800000000012687,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.958Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "price-match",
+      "attempt": 2,
+      "caseHash": "42e116e021a49bd7",
+      "latencyMs": 0.02549999999999386,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.959Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "caseId": "price-match",
+      "attempt": 3,
+      "caseHash": "42e116e021a49bd7",
+      "latencyMs": 0.010500000000007503,
+      "costUsd": null,
+      "status": "passed",
+      "completedAt": "2026-09-28T11:27:08.959Z",
+      "scores": [
+        {
+          "scorerName": "hasKeyFact",
+          "pass": true,
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
