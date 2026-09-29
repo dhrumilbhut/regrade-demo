@@ -1,4 +1,4 @@
-name: Regrade
+name: BehavTest
 
 on:
   push:
@@ -10,11 +10,11 @@ permissions:
   pull-requests: write # for the result comment on pull requests
 
 jobs:
-  regrade:
+  behavtest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: dhrumilbhut/regrade@v0
+      - uses: dhrumilbhut/behavtest@v0
         with:
           suite: suite.mjs
           repeat: 3

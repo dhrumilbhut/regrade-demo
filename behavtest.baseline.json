@@ -1,7 +1,7 @@
 {
-  "kind": "regrade.run",
+  "kind": "behavtest.run",
   "schemaVersion": 1,
-  "regradeVersion": "0.6.0",
+  "behavtestVersion": "0.6.0",
   "exportedAt": "2026-09-28T11:27:08.960Z",
   "compact": true,
   "run": {
@@ -11,7 +11,7 @@
     "startedAt": "2026-09-28T11:27:08.944Z",
     "finishedAt": "2026-09-28T11:27:08.960Z",
     "status": "completed",
-    "regradeVersion": "0.6.0",
+    "behavtestVersion": "0.6.0",
     "gitSha": null,
     "gitDirty": null,
     "label": null,
